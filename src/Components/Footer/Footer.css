@@ -1,0 +1,63 @@
+.footer{
+  background-color: #333;
+  margin: auto;
+  padding: 2rem 0;
+}
+
+.footer h2{
+    color: rgb(62, 62, 211);
+    font-weight: 400;
+    font-size: 2.5rem;
+    font-family: 'Roboto',sans-serif;
+    cursor: pointer;
+}
+
+.footer .top, .bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.footer .icon{
+    color: rgb(62, 62, 211);
+}
+
+.bottom ul{
+    display: flex;
+}
+
+.bottom ul li{
+    padding: 0 1rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: 'Poppins';
+    cursor: pointer;
+    
+}
+
+.bottom .left ul li{
+    padding-left: 0;
+}
+
+.to-top {
+    margin-top: -0.5rem;
+   
+}
+
+@media screen and (max-width:940px) {
+    .bottom ul li{
+        font-size: 1.5rem;
+    }
+    .footer ul{
+        flex-direction: column;
+    }
+
+    .to-top {
+        margin-top: 1rem;
+       
+    }
+    
+}
+
+

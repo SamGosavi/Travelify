@@ -1,0 +1,166 @@
+html, body {
+    overflow-x: hidden;
+}
+  body {
+    position: relative
+  }
+.search{
+    width: 100%;
+    padding: 3rem 0;
+    margin: auto 1.5rem;
+    
+}
+
+.search .container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap:1rem;
+    padding: 0 1rem;
+}
+
+.left h2{
+    font-size: 2.7rem;
+    font-family: 'Poppins','sans-serif';
+}
+.left p{
+    font-size:1.5rem ;
+    font-family: 'Poppins',sans-serif;
+}
+
+.search-col{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem 0rem;
+    align-items: center;
+    justify-content: center;
+    background: rgb(253, 228, 206);
+}
+.box{
+    background-color: rgb(53, 52, 48);
+    max-width: 310px;
+    /* height: 200px; */
+    color: white;
+    text-align: center;
+    display:flex ;
+    margin: auto;
+    
+}
+
+.box h3{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.package{
+    color: white;
+    text-align: center;  
+    margin: 2rem;
+}
+
+.package button{
+    border: none;
+}
+
+.right{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+
+.promo{
+    border: 1px solid black;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.save{
+    font-size: 2.0rem;
+    font-weight:600;
+    font-family: 'Pridi',sans-serif;
+    color: rgb(72, 72, 185);
+}
+
+.timer{
+    font-size: 1.5rem;
+    margin: 2.5rem;
+}
+
+.offers{
+    font-size: 1.5rem;
+    font-family: 'Roboto';
+    border-top: 1px solid black;
+    background-color:rgb(34, 33, 33);
+    color: white;
+    padding: 0.7rem;
+    cursor: pointer;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;    
+   
+}
+
+label{
+    font-size: 1.4rem;
+    font-family: 'Pridi',sans-serif;
+}
+
+.select{
+    width: 300px;
+    height: 2.5rem;
+    margin: 0.5rem 0;
+}
+/* form{
+   display: flex;
+   flex-direction: column;
+  
+} */
+
+.date{
+    display: flex;
+    justify-content: space-between;
+      
+}
+.search input{
+    height: 2.5rem;
+}
+select{
+    font-family: 'Pridi',sans-serif;
+    font-size: 1.5rem;
+   
+}
+.date .inputs{
+    width:48%;
+    
+}
+
+.button-b{
+    width: 100%;
+    margin-top: 1.2rem;
+   border: none;
+}
+
+@media screen and (max-width:940px){
+    .search{
+        margin: auto 0rem;
+    }
+    .search .container{
+        grid-template-columns: 1fr;
+  
+    }
+    .search-col{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .box{
+        margin: 1rem auto;
+    }
+    .left h2{
+        font-size: 2.0rem;
+        font-family: 'Poppins','sans-serif';
+    }
+   
+}

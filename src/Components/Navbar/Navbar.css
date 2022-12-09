@@ -1,0 +1,164 @@
+.navbar{
+    display: flex;
+    width:100%;
+    height: 80px;
+    justify-content: space-between;
+    z-index: 1;
+    position: absolute;
+    /* margin:1rem ; */
+    color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+    
+}
+.navbar-bg{
+    background-color: #e4e2e2;
+}
+.logo h1{
+    font-size:3.0rem; 
+    /* margin-top: 10px; */
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    cursor:pointer;
+}
+.logo h3{
+    font-family: 'Satisfy',sans-serif;
+    font-size: 1.5rem;
+    margin: auto;
+}
+h3.tag-line{
+    margin: 0px 10px;
+}
+.nav-menu{
+    display: flex; 
+    font-size: 1.5rem;   
+}
+.nav-menu li{
+    padding: 1rem;
+    font-family: 'Pridi';
+    font-size: 1.8rem;
+    cursor:pointer;
+}
+.nav-icons{
+    align-items: center;
+    margin-top: 0px;
+}
+.icon{
+    font-size:4.5rem;
+    padding:0px 10px;
+    cursor:pointer;
+}
+
+.three-bar{
+    font-size:2.8rem;
+    display:none;
+    cursor: pointer;
+}
+.mob-menu{
+    display: none;
+}
+
+
+/* Media Query */
+@media screen and (max-width:940px){
+    .logo h1{
+        font-size:3rem; 
+        color: rgb(23, 6, 124);
+       
+    }
+    .logo h3{ 
+        font-size: 1.5rem;
+        color: rgb(23, 6, 124);
+ 
+    }
+    .title-color{
+        color: white;
+    }
+    .nav-menu{
+        display: none;  
+       
+    }
+    .nav-icons{
+     display: none;
+    }
+    .three-bar{
+        display:flex;
+        align-items: center;
+        margin-top: 0px;
+        color: black;
+    }
+    .mob-menu{
+        display: flex; 
+        flex-direction: column;
+        width: 100%;
+        /* min-height:100px ; */
+        background-color: #e4e2e2;
+        margin-top: -200vh;
+        transition: 0.5s; 
+        position: absolute; 
+        color: black;
+        justify-content: space-between;
+       
+    }
+    .active{
+        margin-top: 60px;
+        margin-left: -20px;
+    }
+    .close-none{
+        display:none;
+    }
+    .bars-none{
+       display: none;
+    }
+
+    .mob-nav{
+        display: flex; 
+        flex-direction: column;
+        font-size: 1.5rem;  
+        /* width: 100%; */
+        margin: 0;
+        padding: 15px 0;
+        margin-bottom: 18px;
+    }
+    .mob-nav li{
+        padding: 1.2rem 1rem;
+        font-family: 'Pridi';
+        font-size: 1.8rem;
+        cursor:pointer;
+        border-bottom: 1px solid #ccc;
+        margin: 0 15px;
+
+    }
+    .mob-search-acc{
+        align-items: center;
+        margin: auto;
+        width: 90%;
+
+    }
+    .mob-search-acc button{
+        width: 100%;
+        height: 3rem;
+        font-size: 1.3rem;  
+        margin: 10px 0;
+        text-align: center;
+        
+    }
+
+    .social-icons{
+        margin: auto;
+        padding: 15px 0;
+        
+        
+    }
+    .social-icons .icon{
+        padding: 0 12px; 
+       
+    }
+    .social-icons .icon:hover{
+        
+        transform: scale(1.5);
+        transition: 0.3s;
+    }
+   
+    
+}
