@@ -1,6 +1,6 @@
 import React from 'react'
 import { AiOutlineSearch } from 'react-icons/ai'
-import video  from '../../img/travel.mp4'
+import video  from '../../img/random.mp4'
 import './Main.css'
 
 const Main = () => {
